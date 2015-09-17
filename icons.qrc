@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/list-remove-user.png</file>
+        <file>icons/list-add-user.png</file>
+        <file>icons/dialog-ok-apply.png</file>
+        <file>icons/dialog-cancel.png</file>
+        <file>icons/application-exit.png</file>
+        <file>icons/document-save.png</file>
+        <file>icons/system-users.png</file>
+    </qresource>
+</RCC>
