@@ -7,5 +7,10 @@
         <file>icons/application-exit.png</file>
         <file>icons/document-save.png</file>
         <file>icons/system-users.png</file>
+        <file>icons/system-help.png</file>
+        <file>icons/qtlogo.png</file>
+        <file>icons/preferences-desktop-user-password.png</file>
+        <file>icons/view-pim-contacts.png</file>
+        <file>icons/im-user.png</file>
     </qresource>
 </RCC>

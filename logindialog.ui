@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>376</width>
-    <height>190</height>
+    <width>409</width>
+    <height>280</height>
    </rect>
   </property>
   <property name="font">
@@ -30,19 +30,17 @@
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
       <widget class="QLabel" name="label_3">
-       <property name="font">
-        <font>
-         <family>Neuropolitical</family>
-         <pointsize>25</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(32, 55, 176);</string>
        </property>
        <property name="text">
-        <string>Smart School</string>
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="icons.qrc">:/icons/preferences-desktop-user-password.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

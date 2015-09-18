@@ -19,6 +19,8 @@ public:
 private slots:
     void on_btnNewUser_clicked();
 
+    void on_btnDeleteUser_clicked();
+
 private:
     Ui::usersDialog *ui;
     QSqlTableModel *usersModel;

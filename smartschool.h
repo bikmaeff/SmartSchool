@@ -2,7 +2,7 @@
 #define SMARTSCHOOL_H
 
 #include <QMainWindow>
-
+#include <QSqlTableModel>
 namespace Ui {
 class SmartSchool;
 }
@@ -15,9 +15,13 @@ public:
     explicit SmartSchool(QWidget *parent = 0);
     ~SmartSchool();
 private slots:
-    void showUsersTable();
+    void on_actionChildren_triggered();
+    void on_actionUsers_triggered();
+
 private:
     Ui::SmartSchool *ui;
+    QSqlTableModel *generalModel = NULL;
+
 };
 
 #endif // SMARTSCHOOL_H
